@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "866476979494",
+    "project_id": "obatapps-df8b0",
+    "storage_bucket": "obatapps-df8b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866476979494:android:2a7432e4e445995e227de7",
+        "android_client_info": {
+          "package_name": "com.example.obat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866476979494-l1ela13nitqfbneobnsr0n48885tt9jr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjjhEkXjTDrqgEs6qX1ynANef0mSf31Lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866476979494-l1ela13nitqfbneobnsr0n48885tt9jr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
