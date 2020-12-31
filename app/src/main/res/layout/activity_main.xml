@@ -6,27 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="279dp"
-        android:layout_height="232dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.324"
-        app:srcCompat="@drawable/obat"
-        tools:ignore="MissingConstraints" />
-
     <Button
         android:id="@+id/button1"
         android:layout_width="289dp"
         android:layout_height="62dp"
-        android:layout_below="@id/imageView"
+        android:layout_below="@id/imageView2"
         android:background="@drawable/button"
         android:onClick="Pindah1"
-        android:text="Tambah Data Obat"
+        android:text="@string/tambah_data_obat"
+        android:textColor="#FFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -40,13 +28,27 @@
         android:layout_height="62dp"
         android:layout_below="@id/button1"
         android:background="@drawable/button"
+        android:textColor="#FFFF"
         android:onClick="Pindah2"
-        android:text="Lihat Data Obat"
+        android:text="@string/lihat_data_obat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.789"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="327dp"
+        android:layout_height="376dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/obt"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

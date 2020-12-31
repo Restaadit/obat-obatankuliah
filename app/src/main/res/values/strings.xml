@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">obat</string>
+    <string name="tambah_data_obat">Tambah Data Obat</string>
+    <string name="lihat_data_obat">Lihat Data Obat</string>
+    <string name="gambarobat">GambarObat</string>
+    <string name="todo">TODO</string>
 </resources>
