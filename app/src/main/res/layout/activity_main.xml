@@ -7,33 +7,46 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="263dp"
-        android:layout_height="233dp"
-        android:layout_marginTop="160dp"
+        android:id="@+id/imageView"
+        android:layout_width="279dp"
+        android:layout_height="232dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Obat"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="74dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="280dp"
-        android:layout_height="54dp"
-        android:text="Tambah Data Obat"
-        android:background="@drawable/button"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="479dp"
+        app:layout_constraintVertical_bias="0.324"
+        app:srcCompat="@drawable/obat"
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button1"
+        android:layout_width="289dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/imageView"
         android:background="@drawable/button"
-        android:layout_width="280dp"
-        android:layout_height="54dp"
+        android:onClick="Pindah1"
+        android:text="Tambah Data Obat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="289dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/button1"
+        android:background="@drawable/button"
+        android:onClick="Pindah2"
         android:text="Lihat Data Obat"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="555dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
