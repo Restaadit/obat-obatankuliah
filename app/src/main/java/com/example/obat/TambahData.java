@@ -2,9 +2,10 @@ package com.example.obat;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 
-public class TambahData extends AppCompatActivity {
+public class TambahData extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
