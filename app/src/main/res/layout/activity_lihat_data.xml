@@ -96,7 +96,7 @@
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
-            <TextView
+            <Button
                 android:layout_width="59dp"
                 android:textColor="#ff242f"
                 android:layout_height="40dp"

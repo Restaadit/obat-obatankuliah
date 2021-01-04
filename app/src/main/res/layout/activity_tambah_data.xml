@@ -23,6 +23,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
+        android:id="@+id/namaObat"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:gravity="center"
@@ -51,6 +52,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
+        android:id="@+id/tipeObat"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:gravity="center"
@@ -79,6 +81,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
+        android:id="@+id/desk_obat"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:gravity="center"
@@ -92,7 +95,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/fotoObat"
         android:layout_width="297dp"
         android:layout_height="38dp"
         android:background="@drawable/buttonkuning"
@@ -106,7 +109,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/simpanData"
         android:layout_width="297dp"
         android:layout_height="55dp"
         android:background="@drawable/buttonkuning"
